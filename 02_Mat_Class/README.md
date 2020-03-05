@@ -1,2 +1,2 @@
-## Mat 객체(Objects) 선언
+## Mat 객체(Objects) 선언하기
 ***
