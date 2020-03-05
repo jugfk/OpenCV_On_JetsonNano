@@ -12,7 +12,7 @@ cd OpenCV_On_JetsonNano/02_Mat_Class
 g++ -ggdb Mat_colors.cpp -o Mat_colors `pkg-config --cflags --libs opencv4`
 ./Mat_colors.cpp
 ```
-* Mat_colors.cpp 실행결과
+* Mat_colors.cpp 실행결과:
 ![Mat_colors.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/02_Mat_Class/Mat_colors.png)
 
 ***
@@ -23,3 +23,5 @@ cd OpenCV_On_JetsonNano/02_Mat_Class
 g++ -ggdb splitColorChannels.cpp -o splitColorChannels `pkg-config --cflags --libs opencv4`
 ./splitColorChannels
 ```
+* splitColorChannels.cpp 실행결과:
+![splitColorChannels.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/02_Mat_Class/splitColorChannels.png)
