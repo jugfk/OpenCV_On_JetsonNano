@@ -17,7 +17,7 @@ g++ -ggdb Mat_colors.cpp -o Mat_colors `pkg-config --cflags --libs opencv4`
 
 ***
 
-* splitColorChannels.cpp 컴파일 & 실행하기
+* [splitColorChannels.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/02_Mat_Class/splitColorChannels.cpp) 컴파일 & 실행하기
 ```
 cd OpenCV_On_JetsonNano/02_Mat_Class
 g++ -ggdb splitColorChannels.cpp -o splitColorChannels `pkg-config --cflags --libs opencv4`
