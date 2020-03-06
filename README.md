@@ -9,5 +9,5 @@ git clone https://github.com/jetsonworld/OpenCV_On_JetsonNano.git
 ```
 cd OpenCV_On_JetsonNano/mydirectory
 g++ -ggdb myfile.cpp -o myfile `pkg-config --cflags --libs opencv4`
-./passingMatToFuctions
+./myfile
 ```
