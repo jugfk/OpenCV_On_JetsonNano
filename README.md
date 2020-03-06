@@ -11,3 +11,5 @@ cd OpenCV_On_JetsonNano/mydirectory
 g++ -ggdb myfile.cpp -o myfile `pkg-config --cflags --libs opencv4`
 ./myfile
 ```
+
+![splitColorChannels.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/02_Mat_Class/splitColorChannels.png)
