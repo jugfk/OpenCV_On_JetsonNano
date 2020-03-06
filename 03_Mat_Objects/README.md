@@ -11,3 +11,5 @@ cd OpenCV_On_JetsonNano/03_Mat_Objects
 g++ -ggdb passingMatToFuctions.cpp -o passingMatToFuctions `pkg-config --cflags --libs opencv4`
 ./passingMatToFuctions
 ```
+
+![passingMatToFuctions.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/03_Mat_Objects/passingMatToFuctions.png)
