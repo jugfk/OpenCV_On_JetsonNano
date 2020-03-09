@@ -12,4 +12,4 @@ g++ -ggdb negativeTransformation.cpp -o negativeTransformation `pkg-config --cfl
 ./negativeTransformation
 ```
 
-![negativeTransformation.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/03_Mat_Objects/passingMatToFuctions.png)
+![negativeTransformation.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/04_Grayscale_Image_Enhancement/negativeTransformation.png)
