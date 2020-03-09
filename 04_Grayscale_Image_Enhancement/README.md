@@ -9,7 +9,7 @@ git clone https://github.com/jetsonworld/OpenCV_On_JetsonNano.git
 ```
 cd OpenCV_On_JetsonNano/03_Mat_Objects
 g++ -ggdb negativeTransformation.cpp -o negativeTransformation `pkg-config --cflags --libs opencv4`
-./passingMatToFuctions
+./negativeTransformation
 ```
 
-![passingMatToFuctions.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/03_Mat_Objects/passingMatToFuctions.png)
+![negativeTransformation.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/03_Mat_Objects/passingMatToFuctions.png)
