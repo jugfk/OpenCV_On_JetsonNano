@@ -22,4 +22,4 @@ g++ -ggdb bluring.cpp -o bluring `pkg-config --cflags --libs opencv4`
 ./averaging
 ```
 
-![bluring.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/05_Image_Filtering/bluring.png)
+![blurring.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/05_Image_Filtering/blurring.png)
