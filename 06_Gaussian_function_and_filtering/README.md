@@ -11,3 +11,10 @@ cd OpenCV_On_JetsonNano/06_Gaussian_function_and_filtering
 g++ -ggdb GaussianKernels.cpp -o GaussianKernels `pkg-config --cflags --libs opencv4`
 ./GaussianKernels
 ```
+
+* [GaussianKernels.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/06_Gaussian_function_and_filtering/GaussianKernels.cpp) 컴파일 & 실행하기
+```
+cd OpenCV_On_JetsonNano/06_Gaussian_function_and_filtering
+g++ -ggdb GaussianKernels.cpp -o GaussianKernels `pkg-config --cflags --libs opencv4`
+./GaussianKernels
+```
