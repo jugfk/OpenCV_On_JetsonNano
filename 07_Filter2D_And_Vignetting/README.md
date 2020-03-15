@@ -5,13 +5,13 @@
 git clone https://github.com/jetsonworld/OpenCV_On_JetsonNano.git
 ```
 
-* [GaussianKernels.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/06_Gaussian_function_and_filtering/GaussianKernels.cpp) 컴파일 & 실행하기
+* [filter2D.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/07_Filter2D_And_Vignetting/filter2D.cpp) 컴파일 & 실행하기
 ```
-cd OpenCV_On_JetsonNano/06_Gaussian_function_and_filtering
-g++ -ggdb GaussianKernels.cpp -o GaussianKernels `pkg-config --cflags --libs opencv4`
+cd OpenCV_On_JetsonNano/07_Filter2D_And_Vignetting
+g++ -ggdb filter2D.cpp -o filter2D `pkg-config --cflags --libs opencv4`
 ./GaussianKernels
 ```
-![GaussianKernels.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/06_Gaussian_function_and_filtering/GaussianKernels.png)
+![filter2D.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/06_Gaussian_function_and_filtering/GaussianKernels.png)
 
 * [GaussianFiltering.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/06_Gaussian_function_and_filtering/GaussianFiltering.cpp) 컴파일 & 실행하기
 ```
