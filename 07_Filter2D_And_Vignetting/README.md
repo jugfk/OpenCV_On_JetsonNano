@@ -20,4 +20,4 @@ g++ -ggdb GaussianFiltering.cpp -o GaussianFiltering `pkg-config --cflags --libs
 ./Vignette
 ```
 
-![Vignette.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/06_Gaussian_function_and_filtering/GaussianFiltering.png)
+![Vignette.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/07_Filter2D_And_Vignetting/Vignette.png)
