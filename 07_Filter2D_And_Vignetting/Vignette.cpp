@@ -7,7 +7,7 @@ using namespace std;
 using namespace cv;
 
 int main() {
-    Mat input_image = imread("images/jungOk.png", IMREAD_GRAYSCALE);
+    Mat input_image = imread("images/lena.jpg", IMREAD_GRAYSCALE);
     
     Mat kernel_X = getGaussianKernel(input_image.cols, 50);
     Mat kernel_Y = getGaussianKernel(input_image.rows, 50);
