@@ -9,7 +9,7 @@ git clone https://github.com/jetsonworld/OpenCV_On_JetsonNano.git
 ```
 cd OpenCV_On_JetsonNano/07_Filter2D_And_Vignetting
 g++ -ggdb filter2D.cpp -o filter2D `pkg-config --cflags --libs opencv4`
-./GaussianKernels
+./filter2D
 ```
 ![filter2D.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/06_Gaussian_function_and_filtering/GaussianKernels.png)
 
