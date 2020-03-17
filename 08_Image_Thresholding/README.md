@@ -12,7 +12,7 @@ cd OpenCV_On_JetsonNano/08_Image_Thresholding
 g++ -ggdb CreateThresholdLena.cpp -o CreateThresholdLena `pkg-config --cflags --libs opencv4`
 ./CreateThresholdLena
 ```
-![filter2D.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/07_Filter2D_And_Vignetting/filter2D.png)
+![CreateThresholdLena.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/08_Image_Thresholding/CreateThresholdLena.png)
 
 * [Vignette.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/07_Filter2D_And_Vignetting/Vignette.cpp) 컴파일 & 실행하기
 ```
