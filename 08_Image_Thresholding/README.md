@@ -14,11 +14,11 @@ g++ -ggdb CreateThresholdLena.cpp -o CreateThresholdLena `pkg-config --cflags --
 ```
 ![CreateThresholdLena.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/08_Image_Thresholding/CreateThresholdLena.png)
 
-* [Vignette.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/07_Filter2D_And_Vignetting/Vignette.cpp) 컴파일 & 실행하기
+* [ThresholdingTypes.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/08_Image_Thresholding/ThresholdingTypes.cpp) 컴파일 & 실행하기
 ```
 cd OpenCV_On_JetsonNano/06_Gaussian_function_and_filtering
-g++ -ggdb GaussianFiltering.cpp -o GaussianFiltering `pkg-config --cflags --libs opencv4`
-./Vignette
+g++ -ggdb ThresholdingTypes.cpp -o ThresholdingTypes `pkg-config --cflags --libs opencv4`
+./ThresholdingTypes
 ```
 
 ![Vignette.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/07_Filter2D_And_Vignetting/Vignette.png)
