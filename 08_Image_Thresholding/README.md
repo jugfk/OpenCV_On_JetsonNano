@@ -5,11 +5,12 @@
 git clone https://github.com/jetsonworld/OpenCV_On_JetsonNano.git
 ```
 
-* [filter2D.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/07_Filter2D_And_Vignetting/filter2D.cpp) 컴파일 & 실행하기
+* [CreateThresholdLena.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/08_Image_Thresholding/CreateThresholdLena.cpp) 컴파일 & 실행하기
 ```
-cd OpenCV_On_JetsonNano/07_Filter2D_And_Vignetting
-g++ -ggdb filter2D.cpp -o filter2D `pkg-config --cflags --libs opencv4`
-./filter2D
+cd OpenCV_On_JetsonNano/08_Image_Thresholding
+
+g++ -ggdb CreateThresholdLena.cpp -o CreateThresholdLena `pkg-config --cflags --libs opencv4`
+./CreateThresholdLena
 ```
 ![filter2D.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/07_Filter2D_And_Vignetting/filter2D.png)
 
