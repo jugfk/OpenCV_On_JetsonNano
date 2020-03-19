@@ -8,7 +8,7 @@ using namespace cv;
 
 int main() {
     //Mat input_image = imread("images/otsu_algorithm.jpg", IMREAD_GRAYSCALE);
-    //Mat input_image = imread("images/Fig10_or.tif", IMREAD_GRAYSCALE);
+    //Mat input_image = imread("images/Fig10_org.tif", IMREAD_GRAYSCALE);
     //Mat input_image = imread("images/Fig10_std_10.tif", IMREAD_GRAYSCALE);
     Mat input_image = imread("images/Fig10_std_50.tif", IMREAD_GRAYSCALE);
     
