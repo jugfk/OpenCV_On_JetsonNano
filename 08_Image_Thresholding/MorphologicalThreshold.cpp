@@ -9,9 +9,12 @@ using namespace cv;
 using namespace std;
 
 int main()
-{
-    Mat src = imread("./images/royal_princess_letter.png", cv::IMREAD_GRAYSCALE);  
-    //Mat src = imread("./images/binary_inv.png", cv::IMREAD_COLOR);  
+{    
+    Mat src = imread("./images/dilationInput.png", cv::IMREAD_GRAYSCALE);  
+    //Mat src = imread("./images/Fig09_text_image.tif", cv::IMREAD_GRAYSCALE);  
+    //Mat src = imread("./images/corona.png", cv::IMREAD_GRAYSCALE);  
+    //Mat src = imread("./images/Fig09_mask.tif", cv::IMREAD_GRAYSCALE);  
+    //Mat src = imread("./images/royal_pricess_letter.png", cv::IMREAD_GRAYSCALE);  
     Mat dilated_image(src.size(), src.type());
     Mat eroded_image(src.size(), src.type());    
     Mat dst;
