@@ -39,11 +39,12 @@ rows * cols = 50625
 ```
 
 
-* [ThresholdingTypes.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/08_Image_Thresholding/ThresholdingTypes.cpp) 컴파일 & 실행하기
+* [histogramGraph.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/histogramGraph.cpp) 컴파일 & 실행하기
 ```
-cd OpenCV_On_JetsonNano/06_Gaussian_function_and_filtering
-g++ -ggdb ThresholdingTypes.cpp -o ThresholdingTypes `pkg-config --cflags --libs opencv4`
-./ThresholdingTypes
+cd OpenCV_On_JetsonNano/09_Image_Histogram
+
+g++ -ggdb histogramGraph.cpp -o histogramGraph `pkg-config --cflags --libs opencv4`
+./histogramGraph
 ```
 
 ![ThresholdingTypes.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/08_Image_Thresholding/ThresholdingTypes.png)
