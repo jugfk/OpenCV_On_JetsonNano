@@ -50,15 +50,15 @@ g++ -ggdb histogramGraph.cpp -o histogramGraph `pkg-config --cflags --libs openc
 ![histogramGraph.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/histogramGraph.png)
 
 
-* [histogramGraph.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/histogramGraph.cpp) 컴파일 & 실행하기
+* [colorHistogramGraph.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/colorHistogramGraph.png) 컴파일 & 실행하기
 ```
 cd OpenCV_On_JetsonNano/09_Image_Histogram
 
-g++ -ggdb histogramGraph.cpp -o histogramGraph `pkg-config --cflags --libs opencv4`
-./histogramGraph
+g++ -ggdb colorHistogramGraph.cpp -o colorHistogramGraph `pkg-config --cflags --libs opencv4`
+./colorHistogramGraph
 ```
 
-![histogramGraph.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/histogramGraph.png)
+![histogramGraph.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/colorHistogramGraph.png)
 
 
 * [histogramGraph.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/histogramGraph.cpp) 컴파일 & 실행하기
