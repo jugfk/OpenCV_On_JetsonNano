@@ -65,8 +65,8 @@ g++ -ggdb colorHistogramGraph.cpp -o colorHistogramGraph `pkg-config --cflags --
 ```
 cd OpenCV_On_JetsonNano/09_Image_Histogram
 
-g++ -ggdb histogramGraph.cpp -o histogramGraph `pkg-config --cflags --libs opencv4`
-./histogramGraph
+g++ -ggdb multiDimHistogram.cpp -o multiDimHistogram `pkg-config --cflags --libs opencv4`
+./multiDimHistogram
 ```
 
-![histogramGraph.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/histogramGraph.png)
+![multiDimHistogram.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/multiDimHistogram.png)
