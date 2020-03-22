@@ -61,7 +61,7 @@ g++ -ggdb colorHistogramGraph.cpp -o colorHistogramGraph `pkg-config --cflags --
 ![histogramGraph.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/colorHistogramGraph.png)
 
 
-* [histogramGraph.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/histogramGraph.cpp) 컴파일 & 실행하기
+* [multiDimHistogram.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/multiDimHistogram.cpp) 컴파일 & 실행하기
 ```
 cd OpenCV_On_JetsonNano/09_Image_Histogram
 
