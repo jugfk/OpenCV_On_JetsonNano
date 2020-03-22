@@ -47,4 +47,4 @@ g++ -ggdb histogramGraph.cpp -o histogramGraph `pkg-config --cflags --libs openc
 ./histogramGraph
 ```
 
-![ThresholdingTypes.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/08_Image_Thresholding/ThresholdingTypes.png)
+![histogramGraph.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/histogramGraph.png)
