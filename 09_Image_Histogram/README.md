@@ -12,7 +12,32 @@ cd OpenCV_On_JetsonNano/09_Image_Histogram
 g++ -ggdb histogramText.cpp -o histogramText `pkg-config --cflags --libs opencv4`
 ./histogramText
 ```
-![CreateThresholdLena.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/08_Image_Thresholding/CreateThresholdLena.png)
+* 결과값:
+```
+Histogram...
+0 : 0
+1 : 0
+2 : 0
+3 : 0
+4 : 0
+...
+...
+96 : 464
+97 : 430
+98 : 431
+99 : 409
+100 : 309
+101 : 315
+...
+...
+252 : 0
+253 : 0
+254 : 0
+255 : 0
+Sum of all frequency counts = 50625
+rows * cols = 50625
+```
+
 
 * [ThresholdingTypes.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/08_Image_Thresholding/ThresholdingTypes.cpp) 컴파일 & 실행하기
 ```
