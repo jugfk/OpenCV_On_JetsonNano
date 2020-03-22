@@ -5,12 +5,12 @@
 git clone https://github.com/jetsonworld/OpenCV_On_JetsonNano.git
 ```
 
-* [CreateThresholdLena.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/08_Image_Thresholding/CreateThresholdLena.cpp) 컴파일 & 실행하기
+* [histogramText.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/histogramText.cpp) 컴파일 & 실행하기
 ```
-cd OpenCV_On_JetsonNano/08_Image_Thresholding
+cd OpenCV_On_JetsonNano/09_Image_Histogram
 
-g++ -ggdb CreateThresholdLena.cpp -o CreateThresholdLena `pkg-config --cflags --libs opencv4`
-./CreateThresholdLena
+g++ -ggdb histogramText.cpp -o histogramText `pkg-config --cflags --libs opencv4`
+./histogramText
 ```
 ![CreateThresholdLena.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/08_Image_Thresholding/CreateThresholdLena.png)
 
