@@ -1,4 +1,4 @@
-# OpenCV에서 딥러닝 라이브러리 쓰기(Image Histogram)
+# OpenCV에서 딥러닝 라이브러리(dnn) 쓰기(Image Histogram)
 ***
 * 다운로드하기
 ```
