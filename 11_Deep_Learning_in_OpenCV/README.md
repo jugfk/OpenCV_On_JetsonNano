@@ -13,4 +13,5 @@ python3 download_gdrive.py 1uP9N5E2Jjm6-RrVwHLdBc00qQZeYH7Uj /home/ubuntu/Explor
 python3 main.py
 ```
 
-![histogramGraph.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/histogramGraph.png)
+![image.jpeg](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/11_Deep_Learning_in_OpenCV/image.jpeg)
+![image.jpeg](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/11_Deep_Learning_in_OpenCV/image.jpeg)
