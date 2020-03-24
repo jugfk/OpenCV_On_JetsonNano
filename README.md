@@ -4,6 +4,8 @@
 ```
 dpkg -l | grep libopencv
 ```
+![HowToCheckTheVersion_on_OpenCV.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/HowToCheckTheVersion_on_OpenCV.png)
+
 
 * 다운로드하기
 ```
