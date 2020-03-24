@@ -1,4 +1,4 @@
-# 젯슨 나노에서 OpenCV 4.1.1 사용하기
+# Jetson Nano 에서 OpenCV 4.1.1 사용하기
 ***
 * OpenCV 버전 확인하기
 ```
