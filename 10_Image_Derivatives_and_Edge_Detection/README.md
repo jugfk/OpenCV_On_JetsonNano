@@ -13,6 +13,10 @@ g++ -ggdb simpleDerivatives.cpp -o simpleDerivatives `pkg-config --cflags --libs
 ./simpleDerivatives
 ```
 
+![simpleDerivatives_input.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/simpleDerivatives_input.png)
+![simpleDerivatives_x.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/simpleDerivatives_x.png)
+![simpleDerivatives_y.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/simpleDerivatives_y.png)
+
 * [histogramGraph.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/09_Image_Histogram/histogramGraph.cpp) 컴파일 & 실행하기
 ```
 cd OpenCV_On_JetsonNano/09_Image_Histogram
