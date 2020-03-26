@@ -22,3 +22,5 @@ cd OpenCV_On_JetsonNano/10_Image_Derivatives_and_Edge_Detection
 g++ -ggdb SobelDerivatives.cpp -o SobelDerivatives `pkg-config --cflags --libs opencv4`
 ./SobelDerivatives
 ```
+
+![SobelDerivatives.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/SobelDerivatives.png)
