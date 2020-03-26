@@ -96,5 +96,6 @@ cd OpenCV_On_JetsonNano/10_Image_Derivatives_and_Edge_Detection
 g++ -ggdb BlurDetection.cpp -o BlurDetection `pkg-config --cflags --libs opencv4`
 ./BlurDetection
 ```
+![BlurDetection_InputTwoImages.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/BlurDetection_InputTwoImages.png)
 
 ![BlurDetection.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/BlurDetection.png)
