@@ -45,3 +45,13 @@ g++ -ggdb sobelEdgeDetector.cpp -o sobelEdgeDetector `pkg-config --cflags --libs
 ./sobelEdgeDetector
 ```
 ![sobelEdgeDetector.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/sobelEdgeDetector.png)
+
+* [CannyEdgeDetection.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/CannyEdgeDetection.cpp) 컴파일 & 실행하기
+```
+cd OpenCV_On_JetsonNano/10_Image_Derivatives_and_Edge_Detection
+
+g++ -ggdb CannyEdgeDetection.cpp -o CannyEdgeDetection `pkg-config --cflags --libs opencv4`
+./CannyEdgeDetection
+```
+![CannyEdgeDetection.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/CannyEdgeDetection.png)
+
