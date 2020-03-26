@@ -66,3 +66,14 @@ g++ -ggdb noiseAndEdges.cpp -o noiseAndEdges `pkg-config --cflags --libs opencv4
 
 ![noiseAndEdges.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/noiseAndEdges.png)
 
+* [laplacian.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/laplacian.cpp) 컴파일 & 실행하기
+
+```
+cd OpenCV_On_JetsonNano/10_Image_Derivatives_and_Edge_Detection
+
+g++ -ggdb laplacian.cpp -o laplacian `pkg-config --cflags --libs opencv4`
+./laplacian
+```
+
+![laplacian.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/laplacian.png)
+
