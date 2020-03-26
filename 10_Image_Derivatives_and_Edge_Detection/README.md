@@ -77,3 +77,13 @@ g++ -ggdb laplacian.cpp -o laplacian `pkg-config --cflags --libs opencv4`
 
 ![laplacian.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/laplacian.png)
 
+* [BlurDetection.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/BlurDetection.cpp) 컴파일 & 실행하기
+
+```
+cd OpenCV_On_JetsonNano/10_Image_Derivatives_and_Edge_Detection
+
+g++ -ggdb BlurDetection.cpp -o BlurDetection `pkg-config --cflags --libs opencv4`
+./BlurDetection
+```
+
+![BlurDetection.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/BlurDetection.png)
