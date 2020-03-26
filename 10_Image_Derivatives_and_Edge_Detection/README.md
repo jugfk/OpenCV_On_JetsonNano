@@ -55,6 +55,17 @@ g++ -ggdb CannyEdgeDetection.cpp -o CannyEdgeDetection `pkg-config --cflags --li
 ```
 ![CannyEdgeDetection.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/CannyEdgeDetection.png)
 
+* [CannyEdgeDetectionTrackbar.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/CannyEdgeDetectionTrackbar.cpp)
+
+```
+cd OpenCV_On_JetsonNano/10_Image_Derivatives_and_Edge_Detection
+
+g++ -ggdb CannyEdgeDetectionTrackbar.cpp -o CannyEdgeDetectionTrackbar `pkg-config --cflags --libs opencv4`
+./CannyEdgeDetectionTrackbar
+```
+
+![CannyEdgeDetectionTrackBar.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/CannyEdgeDetectionTrackBar.png)
+
 * [noiseAndEdges.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/noiseAndEdges.cpp) 컴파일 & 실행하기
 
 ```
