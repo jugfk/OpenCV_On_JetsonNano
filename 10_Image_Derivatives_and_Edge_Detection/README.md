@@ -44,3 +44,4 @@ cd OpenCV_On_JetsonNano/10_Image_Derivatives_and_Edge_Detection
 g++ -ggdb sobelEdgeDetector.cpp -o sobelEdgeDetector `pkg-config --cflags --libs opencv4`
 ./sobelEdgeDetector
 ```
+![sobelEdgeDetector.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/sobelEdgeDetector.png)
