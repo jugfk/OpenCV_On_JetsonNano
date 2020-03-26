@@ -24,3 +24,13 @@ g++ -ggdb SobelDerivatives.cpp -o SobelDerivatives `pkg-config --cflags --libs o
 ```
 
 ![SobelDerivatives.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/SobelDerivatives.png)
+
+* [ScharrDerivatives.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/ScharrDerivatives.cpp)
+```
+cd OpenCV_On_JetsonNano/10_Image_Derivatives_and_Edge_Detection
+
+g++ -ggdb ScharrDerivatives.cpp -o ScharrDerivatives `pkg-config --cflags --libs opencv4`
+./ScharrDerivatives
+```
+
+![ScharrDerivatives.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/ScharrDerivatives.png)
