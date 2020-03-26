@@ -36,7 +36,7 @@ Mat getYDerivativeKernel() {
 
 int main()
 {
-    Mat input_image = imread("images/lena.jpg", IMREAD_GRAYSCALE);
+    Mat input_image = imread("images/Fig04_house.tif", IMREAD_GRAYSCALE);
     Mat derivative_X, derivative_Y;
     Mat scaled_derivative_X, scaled_derivative_Y;
     

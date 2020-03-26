@@ -8,7 +8,7 @@ using namespace cv;
 
 int main()
 {
-    Mat input_image = imread("images/lena.jpg", IMREAD_GRAYSCALE);
+    Mat input_image = imread("images/Fig04_house.tif.jpg", IMREAD_GRAYSCALE);
     Mat sobel_filtered_horizontal, sobel_filtered_vertical;
     Mat horizontal_der_scaled, vertical_der_scaled;
 
