@@ -36,4 +36,6 @@ g++ -ggdb ScharrDerivatives.cpp -o ScharrDerivatives `pkg-config --cflags --libs
 ![ScharrDerivatives.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/ScharrDerivatives.png)
 
 ***
-# 에지 검출(Edge Detection)
+# 외곽선 검출(Edge Detection)
+* [sobelEdgeDetector.cpp](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/10_Image_Derivatives_and_Edge_Detection/sobelEdgeDetector.cpp) 컴파일 & 실행하기
+
