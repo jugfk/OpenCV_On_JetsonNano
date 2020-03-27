@@ -8,7 +8,7 @@ cd OpenCV_On_JetsonNano/11_Deep_Learning_in_OpenCV
 g++ -ggdb basicFaceDetector.cpp -o basicFaceDetector `pkg-config --cflags --libs opencv4`
 ./basicFaceDetector images/image.jpeg
 ```
-
+![basicFaceDetector.png](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/11_Deep_Learning_in_OpenCV/basicFaceDetector.png)
 
 ***
 # OpenCV에서 딥러닝(dnn)  
