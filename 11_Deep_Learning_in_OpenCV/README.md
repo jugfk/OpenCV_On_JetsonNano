@@ -6,7 +6,7 @@ git clone https://github.com/jetsonworld/OpenCV_On_JetsonNano.git
 cd OpenCV_On_JetsonNano/11_Deep_Learning_in_OpenCV
 
 g++ -ggdb basicFaceDetector.cpp -o basicFaceDetector `pkg-config --cflags --libs opencv4`
-./basicFaceDetector
+./basicFaceDetector images/image.jpeg
 ```
 
 
