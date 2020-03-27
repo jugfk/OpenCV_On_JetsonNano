@@ -1,5 +1,6 @@
 # OpenCV에서 얼굴인식
 ***
+* 다운로드하기
 ```
 git clone https://github.com/jetsonworld/OpenCV_On_JetsonNano.git
 cd OpenCV_On_JetsonNano/11_Deep_Learning_in_OpenCV
@@ -12,7 +13,7 @@ g++ -ggdb basicFaceDetector.cpp -o basicFaceDetector `pkg-config --cflags --libs
 ***
 # OpenCV에서 딥러닝(dnn)  
 ***
-* 다운로드하기
+* frozen_inference_graph.pb 다운로드하기
 ```
 cd OpenCV_On_JetsonNano/11_Deep_Learning_in_OpenCV
 python3 download_gdrive.py 1uP9N5E2Jjm6-RrVwHLdBc00qQZeYH7Uj /home/ubuntu/OpenCV_On_JetsonNano/11_Deep_Learning_in_OpenCV/models/frozen_inference_graph.pb
