@@ -17,7 +17,7 @@ void CannyThreshold(int, void*) {
 
 int main()
 {
-    input_image = imread("images/cannyInput.jpg");
+    input_image = imread("images/Fig04_house.tif");
     //cvtColor(input_image, input_image, CV_BGR2GRAY);
     cvtColor(input_image, input_image, cv::COLOR_BGR2GRAY);
 

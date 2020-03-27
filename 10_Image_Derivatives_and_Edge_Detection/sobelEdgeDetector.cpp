@@ -35,7 +35,7 @@ Mat thresholdGradientMagnitude(Mat gradient_magnitude, int threshold) {
 
 int main()
 {
-    Mat input_image = imread("images/lena.jpg", IMREAD_GRAYSCALE);
+    Mat input_image = imread("images/Fig04_house.tif", IMREAD_GRAYSCALE);
     Mat x_gradient, y_gradient;
 
     Sobel(input_image, x_gradient, CV_16S, 1, 0);
@@ -43,7 +43,7 @@ int main()
 
 
     Mat gradient_magnitude = getGradientMagnitude(x_gradient, y_gradient);
-    Mat edges_output = thresholdGradientMagnitude(gradient_magnitude, 100);
+    Mat edges_output = thresholdGradientMagnitude(gradient_magnitude, 200);
 
     imshow("Edges", edges_output);
     waitKey(0);

@@ -33,8 +33,7 @@ float getVariance(Mat input) {
 
 }
 
-int main() {
-    
+int main() {    
     Mat input_image_1 = imread("images/blurry1.jpg", IMREAD_GRAYSCALE);
     Mat input_image_2 = imread("images/blurry2.jpg", IMREAD_GRAYSCALE);
     Mat laplacian_output_1, laplacian_output_2;
@@ -47,6 +46,5 @@ int main() {
     
     cout << "Bluriness for Image 1 = " << std_dev_1 << "\n";
     cout << "Bluriness for Image 2 = " << std_dev_2 << "\n";
-
     return 0;
 }
