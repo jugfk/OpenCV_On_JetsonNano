@@ -10,7 +10,7 @@ g++ -ggdb basicFaceDetector.cpp -o basicFaceDetector `pkg-config --cflags --libs
 ```
 * 입력이미지
 
-![image.jpeg](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/11_Deep_Learning_in_OpenCV/image.jpeg)
+![image.jpeg](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/11_Deep_Learning_in_OpenCV/images/image.jpeg)
 
 * 출력이미지
 
@@ -32,7 +32,7 @@ python3 main.py
 ```
 * 입력이미지
 
-![image.jpeg](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/11_Deep_Learning_in_OpenCV/image.jpeg)
+![image.jpeg](https://raw.githubusercontent.com/jetsonworld/OpenCV_On_JetsonNano/master/11_Deep_Learning_in_OpenCV/images/image.jpeg)
 
 * 출력이미지
 
