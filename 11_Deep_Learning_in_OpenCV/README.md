@@ -1,10 +1,13 @@
 # OpenCV에서 얼굴인식
 ***
-* 다운로드 및 컴파일하기
+* 다운로드하기
 ```
 git clone https://github.com/jetsonworld/OpenCV_On_JetsonNano.git
 cd OpenCV_On_JetsonNano/11_Deep_Learning_in_OpenCV
+```
 
+* 컴파일하기
+```
 g++ -ggdb basicFaceDetector.cpp -o basicFaceDetector `pkg-config --cflags --libs opencv4`
 ./basicFaceDetector images/image.jpeg
 ```
