@@ -1,6 +1,6 @@
 # OpenCV에서 얼굴인식
 ***
-* 다운로드 및 
+* 다운로드 및 컴파일하기
 ```
 git clone https://github.com/jetsonworld/OpenCV_On_JetsonNano.git
 cd OpenCV_On_JetsonNano/11_Deep_Learning_in_OpenCV
