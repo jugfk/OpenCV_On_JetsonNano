@@ -24,6 +24,7 @@ g++ -ggdb basicFaceDetector.cpp -o basicFaceDetector `pkg-config --cflags --libs
 ***
 * frozen_inference_graph.pb 다운로드하기
 ```
+sudo pip3 install tdqm
 cd OpenCV_On_JetsonNano/11_Deep_Learning_in_OpenCV
 python3 download_gdrive.py 1uP9N5E2Jjm6-RrVwHLdBc00qQZeYH7Uj /home/ubuntu/OpenCV_On_JetsonNano/11_Deep_Learning_in_OpenCV/models/frozen_inference_graph.pb
 ```
