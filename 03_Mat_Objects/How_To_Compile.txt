@@ -1,5 +1,5 @@
 ===================================================================================
 How To Compile:
 ===================================================================================
-g++ -ggdb loadImage.cpp -o loadImage `pkg-config --cflags --libs opencv4`
+g++ -ggdb passingMatToFuctions.cpp -o passingMatToFuctions `pkg-config --cflags --libs opencv4`
 ===================================================================================
