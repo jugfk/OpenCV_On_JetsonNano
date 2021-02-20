@@ -1,0 +1,9 @@
+========================================================================================================
+How To Compile:
+========================================================================================================
+g++ -ggdb exponentialTransform.cpp -o exponentialTransform `pkg-config --cflags --libs opencv4`
+g++ -ggdb Gamma_conversion.cpp -o Gamma_conversion `pkg-config --cflags --libs opencv4`
+g++ -ggdb Log_conversion.cpp -o Log_conversion `pkg-config --cflags --libs opencv4`
+g++ -ggdb negativeTransformation.cpp -o negativeTransformation `pkg-config --cflags --libs opencv4`
+g++ -ggdb Using_Mathematical_operator_overloaded_for_Mat.cpp -o Using_Mathematical_operator_overloaded_for_Mat `pkg-config --cflags --libs opencv4`
+========================================================================================================
