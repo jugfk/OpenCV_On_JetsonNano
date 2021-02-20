@@ -1,0 +1,9 @@
+====================================================================================================
+How To Compile:
+====================================================================================================
+g++ -ggdb colorHistogramGraph.cpp -o colorHistogramGraph `pkg-config --cflags --libs opencv4`
+g++ -ggdb histogramAPI.cpp -o histogramAPI `pkg-config --cflags --libs opencv4`
+g++ -ggdb histogramGraph.cpp -o histogramGraph `pkg-config --cflags --libs opencv4`
+g++ -ggdb histogramText.cpp -o histogramText `pkg-config --cflags --libs opencv4`
+g++ -ggdb multiDimHistogram.cpp -o multiDimHistogram `pkg-config --cflags --libs opencv4`
+====================================================================================================
