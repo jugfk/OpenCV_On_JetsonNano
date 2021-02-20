@@ -1,0 +1,9 @@
+========================================================================================================
+How To Compile:
+========================================================================================================
+g++ -ggdb AdaptiveThreshold.cpp -o AdaptiveThreshold `pkg-config --cflags --libs opencv4`
+g++ -ggdb CreateThresholdLena.cpp -o CreateThresholdLena `pkg-config --cflags --libs opencv4`
+g++ -ggdb histogramPlot.cpp -o histogramPlot `pkg-config --cflags --libs opencv4`
+g++ -ggdb MorphologicalThreshold.cpp -o MorphologicalThreshold `pkg-config --cflags --libs opencv4`
+g++ -ggdb ThresholdingTypes.cpp -o ThresholdingTypes `pkg-config --cflags --libs opencv4`
+========================================================================================================
