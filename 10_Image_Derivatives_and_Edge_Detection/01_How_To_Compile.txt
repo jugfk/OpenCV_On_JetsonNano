@@ -1,9 +1,12 @@
 ====================================================================================================
 How To Compile:
 ====================================================================================================
-g++ -ggdb colorHistogramGraph.cpp -o colorHistogramGraph `pkg-config --cflags --libs opencv4`
-g++ -ggdb histogramAPI.cpp -o histogramAPI `pkg-config --cflags --libs opencv4`
-g++ -ggdb histogramGraph.cpp -o histogramGraph `pkg-config --cflags --libs opencv4`
-g++ -ggdb histogramText.cpp -o histogramText `pkg-config --cflags --libs opencv4`
-g++ -ggdb multiDimHistogram.cpp -o multiDimHistogram `pkg-config --cflags --libs opencv4`
+g++ -ggdb BlurDetection.cpp -o BlurDetection `pkg-config --cflags --libs opencv4`
+g++ -ggdb CannyEdgeDetection.cpp -o CannyEdgeDetection `pkg-config --cflags --libs opencv4`
+g++ -ggdb laplacian.cpp -o laplacian `pkg-config --cflags --libs opencv4`
+g++ -ggdb noiseAndEdges.cpp -o noiseAndEdges `pkg-config --cflags --libs opencv4`
+g++ -ggdb ScharrDerivatives.cpp -o ScharrDerivatives `pkg-config --cflags --libs opencv4`
+g++ -ggdb simpleDerivatives.cpp -o simpleDerivatives `pkg-config --cflags --libs opencv4`
+g++ -ggdb SobelDerivatives.cpp -o SobelDerivatives `pkg-config --cflags --libs opencv4`
+g++ -ggdb sobelEdgeDetector.cpp -o sobelEdgeDetector `pkg-config --cflags --libs opencv4`
 ====================================================================================================
