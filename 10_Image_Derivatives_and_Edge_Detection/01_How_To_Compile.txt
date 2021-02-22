@@ -3,6 +3,7 @@ How To Compile:
 ====================================================================================================
 g++ -ggdb BlurDetection.cpp -o BlurDetection `pkg-config --cflags --libs opencv4`
 g++ -ggdb CannyEdgeDetection.cpp -o CannyEdgeDetection `pkg-config --cflags --libs opencv4`
+g++ -ggdb CannyEdgeDetectionTrackbar.cpp -o CannyEdgeDetectionTrackbar `pkg-config --cflags --libs opencv4`
 g++ -ggdb laplacian.cpp -o laplacian `pkg-config --cflags --libs opencv4`
 g++ -ggdb noiseAndEdges.cpp -o noiseAndEdges `pkg-config --cflags --libs opencv4`
 g++ -ggdb ScharrDerivatives.cpp -o ScharrDerivatives `pkg-config --cflags --libs opencv4`
