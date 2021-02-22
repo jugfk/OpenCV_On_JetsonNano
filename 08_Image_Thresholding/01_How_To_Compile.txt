@@ -6,4 +6,5 @@ g++ -ggdb CreateThresholdLena.cpp -o CreateThresholdLena `pkg-config --cflags --
 g++ -ggdb histogramPlot.cpp -o histogramPlot `pkg-config --cflags --libs opencv4`
 g++ -ggdb MorphologicalThreshold.cpp -o MorphologicalThreshold `pkg-config --cflags --libs opencv4`
 g++ -ggdb ThresholdingTypes.cpp -o ThresholdingTypes `pkg-config --cflags --libs opencv4`
+g++ -ggdb THRESH_OTSU.cpp -o THRESH_OTSU `pkg-config --cflags --libs opencv4`
 ========================================================================================================
